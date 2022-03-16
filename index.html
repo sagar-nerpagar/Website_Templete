@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title>University Template Website</title>
+        <meta charset="ntf-8">
+        <meta name="viewport" content="initial-scale=1 shrink-to-fit=no">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Lobster&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/761b3d5214.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      <section class="header">
+         <nav>
+            <a href="index.html" id="logo"><i class="fa fa-graduation-cap"></i>Edu-Kart</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+         <div class="title">
+            <h1>World's Largest University</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam 
+                doloribus atque et<br> consequuntur eos aspernatur minus illo. 
+                At vero a fuga quo rerum id alias sapiente.
+            </p>
+            <a href="" class="hero-btn">Visite Us to More know </a>
+        </div>
+      </section>
+
+      <section class="Course">
+            <h1>We Offers You Precious Courses</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quas!</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermidiate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Tenetur autem maxime quam blanditiis repudiandae, nesciunt corrupti vero quo expedita! Aspernatur!</p>
+                </div>
+                <div class="course-col">
+                    <h3>Under Graduation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Tenetur autem maxime quam blanditiis repudiandae, nesciunt corrupti vero quo expedita! Aspernatur!</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Tenetur autem maxime quam blanditiis repudiandae, nesciunt corrupti vero quo expedita! Aspernatur!</p>
+                </div>
+            </div>
+      </section>
+
+      <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sapiente.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.jpg">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/america.jpg" >
+                <div class="layer">
+                    <h3>America</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/New-York.jpg">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nostrum!</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/cafateria.jpg">
+                <h3>Cafetaria</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/Library.jpg">
+                <h3>Library</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/playground.jpg">
+                <h3>Play Ground</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+        </div>
+      </section>
+
+      <script>
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+              navLinks.style.right = "0";
+          }
+          function hideMenu() {
+              navLinks.style.right = "-200px";
+          }
+      </script>
+      
+    </body>
+</html>
